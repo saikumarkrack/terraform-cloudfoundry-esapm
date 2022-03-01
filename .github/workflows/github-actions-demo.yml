@@ -1,12 +1,11 @@
-name: 'Terraform Build Demo'
+name: 'Terraform Build'
 
 on:
-  push:
-    branch
+  push
 
 jobs:
   terraform:
-    name: 'TF GitHub Actions Demo'
+    name: 'TF GitHub Actions'
     runs-on: ubuntu-latest
     environment: delopment
 
